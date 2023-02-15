@@ -1,0 +1,17 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #121B27;
+  color: white
+  font-family: ''
+}
+
+@layer components {
+  input {
+  @apply bg-inherit border-2 w-full rounded-md py-1 px-2 pl-2 placeholder:text-[14px] caret-[#A75FD2] outline-none placeholder:text-white
+  }
+}
